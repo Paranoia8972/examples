@@ -1,0 +1,37 @@
+{
+  "name": "webscraping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cheerio.js",
+  "scripts": {
+    "cheerio": "node cheerio.js",
+    "pptr": "node pptr.js",
+    "bd": "node bright_data.js"
+  },
+  "keywords": [
+    "webscraping",
+    "puppeteer",
+    "pptr",
+    "bright data"
+  ],
+  "author": {
+    "name": "Clemens Hoffmann",
+    "email": "hello@encryptopia.dev",
+    "url": "https://ecty.dev",
+    "github": "https://github.com/Paranoia8972"
+  },
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "cheerio": "1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "delay": "^6.0.0",
+    "express": "^4.19.2",
+    "get-urls": "^12.1.0",
+    "node-fetch": "^3.3.2",
+    "puppeteer": "^22.14.0",
+    "puppeteer-core": "^22.14.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
